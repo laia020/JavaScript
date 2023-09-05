@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- chamando o css  -->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Contato</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programa.html">Quiz</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+        <!-- criando um forlario  -->
+        <form>
+            
+            <p>Nome:<input type="text" placeholder="Digite seu nome" id="nome" required></p>
+            <p>Telefone:<input type="text" placeholder="Digite seu telefone" id="tel" required></p>
+            <p>E-mail:<input type="text" placeholder="Digite seu e-mail" id="email" required></p>
+            <!-- criando um botão com um evendo onclick e chamando a funcao validar  -->
+            <input type="submit" value="Enviar" id="login" onclick="validar()">
+
+    </div>
+    <footer>
+        Copyright © 2023 Vinheria Percussi, All rights reserved.
+    Our mailing address is:
+    Bairro dos vinhos
+    R. Bianchi Bertrudes, 777
+    Vinhedos
+    Cuba, TD 70707-070
+    Brasil
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
