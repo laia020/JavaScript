@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(to right, aquamarine, purple);
+}
+p{
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+}
+#image{
+    width: 600px;
+    height: 600px;
+    margin-left: 30%;
+}
